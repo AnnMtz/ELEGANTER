@@ -1,0 +1,264 @@
+/* header {
+    background: url(../img/header.jpg);
+    background-size: 100%;
+} */
+
+#logo {
+    width: 10em;
+}
+
+/* .container {
+    background: url(../img/header.jpg);
+    display: block;
+    width: 100%;
+} */
+.carousel-item {
+    background: url(../img/header.jpg);
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+.container-text {
+    padding-top: 100px;
+}
+
+.carousel-item p {
+    font-size: 0.6em;
+}
+
+.carousel-item h1 {
+    font-size: 1.7em;
+}
+
+.carousel-item .btn-outline-secondary {
+    color: white;
+}
+
+.carousel-item .btn-outline-secondary:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    justify-content: space-between;
+}
+
+.row {
+    justify-content: space-between;
+}
+ .card-item .content-item {
+    display: inline-flex;
+    margin-right: 25px;
+}
+
+.card-item-1 {
+    display: inline-flex;
+}
+.card-item .text {
+    text-align: justify;
+}
+
+.btn-second {
+    margin-left: 98px;
+    margin-bottom: 15px;
+}
+
+.img-cont {
+    margin-left: 10em;
+    margin-bottom: 10px;
+}
+
+.line {
+    background: red;
+    width: 54px;
+}
+
+.paragraph {
+    text-align: end;
+    display: block;
+    color: red;
+    padding-right: 34px;
+}
+
+.text3 {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: justify;
+}
+
+.text-f {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img2 {
+    border: 0;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+.component-wrapper.drop-wrapper {
+    background: url(../img/water-drop.png);
+   background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 36px;
+}
+
+.component-wrapper.cel-wrapper {
+    background: url(../img/smartphone-call.png);
+   background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 36px;
+}
+
+.component-wrapper.heart-wrapper {
+    background: url(../img/heart.png);
+   background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 36px;
+}
+.component-wrapper.bars-wrapper {
+    background: url(../img/loss.png);
+   background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 36px;
+}
+.component-wrapper.world-wrapper {
+    background: url(../img/earth-globe.png);
+   background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 36px;
+}
+
+.our .row {
+    text-align: center;
+}
+
+.our-column {
+    font-size: 16px;
+    padding: 0;
+}
+.numbers {
+    font-size: 50px;
+    line-height: 1.4;
+}
+
+.our-text {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.nav {
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav-pills {
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 0;
+}
+
+.nav-web {
+    width: 115px;
+}
+.nav-design {
+    width: 138px;
+}
+
+
+.thumb1, .thumb2, .thumb3, .thumb4, .thumb5, .thumb6, .thumb7, .thumb8 {
+    width: 100%;
+} 
+
+.card-items {
+    flex-wrap: wrap;
+}
+
+.card-items .gallery-items{
+	flex-basis: 50%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.animated-wrapper{
+	transition: all 1s ease;
+	position: relative;
+	height: 50vh;
+	width: 100%;
+}
+ .animated-wrapper img{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	height: 50vh;
+ 	transition: all 8s ease;
+ }
+
+ .animated-wrapper p{
+ 	width: 100%;
+ 	height: 50vh;
+ 	background: firebrick;
+ 	text-align: center;
+ 	opacity: 0;
+ 	transition: all 8s ease;
+ }
+
+ .card-items:hover img{
+ 	opacity: 0;
+ }
+
+ .card-items:hover p{
+ 	opacity: 1;
+ }
+ 
+ .carousel-item-1 {
+     /* display: flex; */
+     /* width: 100%; */
+ }
+
+ #testimonial4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 141px;
+    margin-top: 0;
+ }
+
+ /* .testimonial5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 141px;
+    margin-top: 0;
+ } */
+
+ /* .testimonial6 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 141px;
+    margin-top: 0;
+ } */
+
+ .carousel-caption h5 {
+     color: black;
+ }
+
+ .carousel-caption p {
+     color: black;
+ }
+
