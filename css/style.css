@@ -1,17 +1,13 @@
-/* header {
-    background: url(../img/header.jpg);
-    background-size: 100%;
-} */
+.banderilla {
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    z-index: 10;
+}
 
 #logo {
     width: 10em;
 }
-
-/* .container {
-    background: url(../img/header.jpg);
-    display: block;
-    width: 100%;
-} */
 .container-text {
     background: url(../img/header.jpg);
     color: white;
@@ -64,14 +60,25 @@
     text-align: justify;
 }
 
+.btn-parallax {
+    margin-top: 33px;
+}
+.btn-class {
+    margin-top: 28px;
+}
 .btn-second {
     margin-left: 98px;
     margin-bottom: 15px;
 }
 
+.card-top {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 .img-cont {
-    margin-left: 10em;
-    margin-bottom: 10px;
+    margin-left: 6em;
+    margin-bottom: 20px;
 }
 
 .line {
@@ -107,6 +114,9 @@
     width: auto;
 }
 
+.our {
+    padding-top: 60px;
+}
 .component-wrapper.drop-wrapper {
     background: url(../img/water-drop.png);
    background-repeat: no-repeat;
@@ -228,41 +238,151 @@
  	opacity: 1;
  }
  
- /* .carousel-item-1 {
-     /* display: flex; */
-     /* width: 100%; */
+ .testimonials {
+    padding-top: 60px;
+    padding-bottom: 30px;
+ }
+.text-testimonials {
+    margin-top: 15px;
+}
  
-     #testimonial4, #testimonial5, #testimonial6 {
+#testimonial4, #testimonial5, #testimonial6 {
         margin-left: auto;
         margin-right: auto;
-    }
-    
-    .h5-carusel {
-        color: black;
-        text-align: center;
-        font-size: medium;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    
-    .text-carusel {
-        color: black;
-        text-align: center;
-    }
-    
-    .carousel-indicators {
-        bottom: -50px;
-    }
-    
-    .carousel-indicators li {
-        height: 10px;
-        margin: 0 5px;
-        width: 10px;
-        border-radius: 0;
-        display: block;
-        color: #777;
-        transform: rotate(45deg);
-        background-color: black;
-    } 
+}
 
+.h5-carusel {
+    color: black;
+    text-align: center;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.text-carusel {
+    color: black;
+    text-align: center;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    margin: 0 5px;
+    width: 10px;
+    border-radius: 0;
+    display: block;
+    color: #777;
+    transform: rotate(45deg);
+    background-color: grey;
+} 
+
+.cont {
+    margin-top: 50px;
+}
+.contact {
+    background-color: #C81010;
+    color: white;
+    margin-top: 50px;
+    display: block;
+    line-height: 1.6rem;
+    margin-bottom: 0px;
+    font-size: 1.8rem;
+    padding-top: 25px;
+    height: 80px;
+}
+
+.main-footer {
+    background-color: #002633;
+    text-align: center;
+}
+
+#inlineFrame {
+    width: 110%;
+    height: 106%
+}
+
+#first-componet-wrapper {
+    padding-top: 20px;
+}
+
+.components-wrapper {
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.company {
+    font-size: 18px;
+}
+
+.text-cont-wrapper {
+    font-size: 8px;
+}
+.break {
+    border-color: gray;
+}
+
+.row {
+    width: 100%;
+}
+.bottom-footer{
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    display: block;
+}
+
+.wrapper-copyright {
+    display: inline;
+    font-size: small;
+    width: 280px;
+    float: left;
+    padding-left: 25px;
+}
+.wrapper-response{
+    display: inline;
+    float: right;
+    padding-right: 35px;
+    width: 200px;
+}
+.response {
+   
+    font-size: small;
+    color: gray;
+    text-decoration: none;
+    float: right;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 18px;
+}
+
+.components-wrapper.location-wrapper {
+    background: url(../img/Place-Icon.png);
+    background-repeat: no-repeat;
+    background-position: 31px;
+    background-size: 52px;
+    background-position-x: 70px;
+}
+
+.components-wrapper.email-wrapper {
+    background: url(../img/icon-email.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-y: 23px;
+    background-position-x: 70px;
+}
+
+.components-wrapper.phone-wrapper {
+    background: url(../img/telephone.png);
+    background-repeat: no-repeat;
+    background-position-x: 70px;
+    background-position-y: 16px;
+    background-size: 52px;
+    opacity: 0.4;
+}
